@@ -9,12 +9,20 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="pl-2 list-disc">
+        <li>JavaScript</li>
+        <li>TypeScript</li>
         <li>React Js/Ts</li>
         <li>Next Js/Ts</li>
-        <li>Vue</li>
         <li>Angular</li>
-        <li>JavaScript</li>
         <li>Node</li>
+        <br></br>
+        <li>Agile Methodology</li>
+        <li>slack</li>
+        <li>Git</li>
+        <li>Vite</li>
+        <li>npm</li>
+        <li>Tailwind</li>
+        <li>Postman</li>
       </ul>
     ),
   },
@@ -33,6 +41,22 @@ const TAB_DATA = [
     content: (
       <ul className="pl-2 list-disc">
         <li>AWS Cloud Practitioner</li>
+        <li>fundamental Web Development </li>
+        <li>Bachelor of Technology (Software Engineering)</li>
+        <li>completion a hardware and networking camp</li>
+      </ul>
+    ),
+  },
+  {
+    title: "Achievements/Awards",
+    id: "awards",
+    content: (
+      <ul className="pl-2 list-disc">
+        <li>Level 300 student of the year</li>
+        <li>Deputy Organizer for the year</li>
+        <li>Certificate of participating in Takoradi Technical University Hackathon</li>
+        <li>La Plage Meta Verse Africa Digital Ambassador</li>
+        <li>Certificate of Completion AWS Skill Builder Learner Guide</li>
       </ul>
     ),
   },
@@ -57,7 +81,7 @@ const AboutSection = () => {
           <p className="text-base lg:text-lg">
             I am a frontend web developer with a passion for creating
             interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, HTML, CSS, 
+            working with JavaScript,TypeScript, React, Redux, Node.js, HTML, CSS, 
             and Git. I am a quick learner and I am always
             looking to expand my knowledge and skill set. I am a team player and
             I am excited to work with others to create amazing applications.
@@ -83,6 +107,13 @@ const AboutSection = () => {
             >
               {" "}
               Certifications{" "}
+            </TabButton>
+            <TabButton
+              selectTab={() => handleTabChange("awards")}
+              active={tab === "awards"}
+            >
+              {" "}
+              Achievements/Awards{" "}
             </TabButton>
           </div>
           <div className="mt-8">

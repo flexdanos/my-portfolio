@@ -55,7 +55,7 @@ const EmailSection = () => {
           try my best to get back to you!
         </p>
         <div className="flex flex-row gap-2 socials">
-          <Link href="https://github.com/">
+          <Link href="https://github.com/flexdanos">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
           <Link href="linkedin.com">
@@ -80,6 +80,7 @@ const EmailSection = () => {
               <input
                 name="email"
                 type="email"
+                // value={email}
                 id="email"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
@@ -97,6 +98,7 @@ const EmailSection = () => {
                 name="subject"
                 type="text"
                 id="subject"
+                // value={subject}
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
                 placeholder="Just saying hi"
@@ -112,6 +114,7 @@ const EmailSection = () => {
               <textarea
                 name="message"
                 id="message"
+                // value={message}
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
                 placeholder="Let's talk about..."
               />

@@ -35,24 +35,25 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptatum.
+          I possess the rare ability to translate complex ideas into elegant, functional code, 
+          shaping the digital landscape with their creativity and problem-solving prowess.
           </p>
           <div>
             <Link
-              href="/contact"
+              href="/#contact"
               className="inline-block w-full px-6 py-3 mr-4 text-white rounded-full sm:w-fit bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200"
             >
               Hire Me
             </Link>
-            <Link
-              href="/"
+            <a
+              href="../../public/cv/Felix Osei Danso.cv.pdf" // Adjust the path to match the actual location of your CV file
+              download="Felix Osei Danso.cv.pdf" 
               className="inline-block w-full px-1 py-1 mt-3 text-white rounded-full sm:w-fit bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Download CV
               </span>
-            </Link>
+            </a>
           </div>
         </motion.div>
         <motion.div
