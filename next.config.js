@@ -1,17 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  // Add build optimization settings
-  experimental: {
-    optimizeCss: true,
-    optimizeFonts: true,
-  },
-  // Exclude unnecessary files from build
   images: {
-    unoptimized: false,
+    unoptimized: true,
   },
-  // Add build optimization settings
   output: 'export',
+  pageExtensions: ['js', 'jsx', 'md', 'mdx'],
 }
 
 module.exports = nextConfig
