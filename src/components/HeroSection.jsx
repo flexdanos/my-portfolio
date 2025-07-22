@@ -46,7 +46,7 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <a
-              href="../../public/cv/Felix Osei Danso.cv.pdf" // Adjust the path to match the actual location of your CV file
+              href="./cv/Felix Osei Danso.cv.pdf" 
               download="Felix Osei Danso.cv.pdf" 
               className="inline-block w-full px-1 py-1 mt-3 text-white rounded-full sm:w-fit bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800"
             >
