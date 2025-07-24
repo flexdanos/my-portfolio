@@ -13,7 +13,8 @@ const TAB_DATA = [
         <li>TypeScript</li>
         <li>React Js/Ts</li>
         <li>Next Js/Ts</li>
-        <li>Angular</li>
+        <li>React Native</li>
+        {/* <li>Angular</li> */}
         <li>Node</li>
         <br></br>
         <li>Agile Methodology</li>
@@ -23,6 +24,12 @@ const TAB_DATA = [
         <li>npm</li>
         <li>Tailwind</li>
         <li>Postman</li>
+        <li>Redux Toolkit</li>
+        <li>Material UI</li>
+        <li>Storyblok</li>
+        <li>Neon</li>
+        <li>Magnolia</li>
+        <li>shadcn ui</li>
       </ul>
     ),
   },
@@ -75,11 +82,11 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="items-center gap-8 px-4 py-8 md:grid md:grid-cols-2 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} />
+        <Image src="/images/about-image.png" width={500} height={500} alt="Professional portrait of Felix Osei Danso" />
         <div className="flex flex-col h-full mt-4 text-left md:mt-0">
           <h2 className="mb-4 text-4xl font-bold text-white">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a frontend web developer with a passion for creating
+            I software developer with a passion for creating
             interactive and responsive web applications. I have experience
             working with JavaScript,TypeScript, React, Redux, Node.js, HTML, CSS, 
             and Git. I am a quick learner and I am always

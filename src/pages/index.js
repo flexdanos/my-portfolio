@@ -4,6 +4,7 @@ import HeroSection from '@/components/HeroSection'
 import Navbar from '@/components/Navbar'
 import AboutSection from '@/components/AboutSection'
 import ProjectsSection from '@/components/ProjectSection'
+import ClientProjectsSection from '@/components/ClientProjectsSection'
 import EmailSection from '@/components/EmailSection'
 import Footer from '@/components/Footer'
 import AchievementsSection from '@/components/AchievementSection'
@@ -19,6 +20,7 @@ export default function Home() {
       <AchievementsSection/>
       <AboutSection />
       <ProjectsSection/>
+      <ClientProjectsSection/>
       <EmailSection/>
       </div>
       <Footer/>
