@@ -59,11 +59,11 @@ const ClientProjectsSection = () => {
       <h2 className="text-4xl font-bold text-center text-white mb-12">
         Client Projects
       </h2>
-      <div className="max-w-4xl mx-auto px-4">
+      <div className=" mx-auto px-4">
         <p className="text-center text-gray-300 mb-8">
           I&apos;ve had the privilege of working on several enterprise-level projects for prestigious clients. Due to confidentiality agreements, I cannot display the full details or screenshots of these projects. However, I can share some key information about my contributions:
         </p>
-        <div className="grid gap-8 md:grid-cols-2">
+        <div className="grid gap-8 md:grid-cols-3">
           {clientProjects.map((project) => (
             <motion.div
               key={project.id}
