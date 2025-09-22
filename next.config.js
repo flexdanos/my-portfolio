@@ -5,9 +5,20 @@ const nextConfig = {
     unoptimized: true,
   },
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
-  // Exclude unnecessary files from build
   excludeDefaultMomentLocales: true,
-  // Add proper file exclusion patterns
+  // Enable standalone output for better optimization
+  output: 'standalone',
+  // Add experimental settings for better build performance
+  experimental: {
+    outputFileTracingExcludes: {
+      '*': [
+        'node_modules/**/*',
+        '**/node_modules/**/*',
+        '**/.git/**/*',
+        '**/.next/**/*',
+      ],
+    },
+  },
   webpack: (config, { isServer }) => {
     if (isServer) {
       config.resolve.fallback = { fs: false, path: false };
